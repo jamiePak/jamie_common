@@ -1,7 +1,7 @@
 const userList = [
-  { id: '1', name: '최영훈A', engName: 'JeffChoi' },
-  { id: '2', name: '최영훈B', engName: 'JeffChoi' },
-  { id: '3', name: '최영훈C', engName: 'JeffChoi' },
+  { id: '1', name: '박재민', engName: 'Jamie' },
+  { id: '2', name: '민팍', engName: 'minPak' },
+  { id: '3', name: '제이미', engName: 'Jamie' },
 ];
 
 const getUsers = (ctx) => {
