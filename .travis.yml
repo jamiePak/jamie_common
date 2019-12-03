@@ -11,7 +11,7 @@ before_deploy: # 배포하기전 하는 작업들
   - rm -rf node_modules # travis가 설치한 node_moduels를 삭제
   - zip -r jamie_common * # jamie_common 라는 이름으로 zip 파일 생성
   - mkdir -p deploy # deploy 라는 디렉터리를 만듬
-  - mv jamie_common.zip jamie_project/deploy/jamie_common/jamie_common.zip # deploy 디렉터리로 jamie_common.zip 파일을 이동
+  - mv jamie_common.zip deploy/jamie_common.zip # deploy 디렉터리로 jamie_common.zip 파일을 이동
 deploy: # 배포
   - provider: s3 # AWS S3를 의미
     access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
