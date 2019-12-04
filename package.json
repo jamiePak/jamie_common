@@ -1,5 +1,5 @@
 {
-  "name": "node-koa-server",
+  "name": "jamie_common",
   "version": "1.0.0",
   "description": "다양한 학습하기 위한 실습용 코드",
   "main": "server.js",
@@ -8,7 +8,7 @@
     "start": "pm2 start ./src/server.js",
     "test": "exit"
   },
-  "author": "jeffchoi",
+  "author": "jamie",
   "license": "MIT",
   "dependencies": {
     "koa": "^2.6.2",
@@ -16,3 +16,4 @@
     "nodemon": "^1.18.9"
   }
 }
+
