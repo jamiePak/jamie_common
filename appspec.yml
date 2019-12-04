@@ -7,12 +7,12 @@ files:
 # 생성되는 파일에 대한 permission을 설정
 permissions:
     - object: /home/ec2-user
-       owner: ec2-user
-       group: ec2-user
-       mode: 755
-       type:
-         - directory
-         - file
+      owner: ec2-user
+      group: ec2-user
+      mode: 755
+      type:
+        - directory
+        - file
 hooks:
   AfterInstall: # 배포가 끝나면 아래 명령어를 실행
     - location: execute-deploy.sh
